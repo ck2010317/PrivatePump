@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "cd app && npm run build",
   "outputDirectory": "app/.next",
-  "installCommand": "cd app && pnpm install --no-frozen-lockfile",
+  "installCommand": "cd app && npm install --legacy-peer-deps",
   "env": {
     "NEXT_PUBLIC_PROGRAM_ID": "@NEXT_PUBLIC_PROGRAM_ID",
     "NEXT_PUBLIC_RPC_URL": "@NEXT_PUBLIC_RPC_URL",
