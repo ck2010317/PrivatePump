@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "cd app && npm run build",
+  "outputDirectory": "app/.next",
+  "installCommand": "pnpm install",
+  "env": {
+    "NEXT_PUBLIC_PROGRAM_ID": "@NEXT_PUBLIC_PROGRAM_ID",
+    "NEXT_PUBLIC_RPC_URL": "@NEXT_PUBLIC_RPC_URL",
+    "NEXT_PUBLIC_SERVER_URL": "@NEXT_PUBLIC_SERVER_URL"
+  },
+  "functions": {
+    "app/src/pages/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
+}

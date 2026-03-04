@@ -1,0 +1,30 @@
+# Vercel ignore patterns
+node_modules/
+.next/
+out/
+.turbo/
+.anchor/
+target/
+programs/
+tests/
+migrations/
+scripts/
+.git/
+.github/
+.env
+.env.local
+.DS_Store
+*.log
+*.pem
+.vercel/
+.claude/
+
+# Keep only what Vercel needs
+!app/
+!packages/
+!server/
+!.gitignore
+!.gitattributes
+!pnpm-workspace.yaml
+!package.json
+!pnpm-lock.yaml
