@@ -54,15 +54,15 @@ importers:
       '@coral-xyz/anchor':
         specifier: ^0.32.1
         version: 0.32.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)
-      '@magicpump/sdk':
-        specifier: workspace:*
-        version: link:../packages/sdk
-      '@magicpump/shared':
-        specifier: workspace:*
-        version: link:../packages/shared
       '@prisma/client':
         specifier: ^6.19.2
         version: 6.19.2(prisma@6.19.2(typescript@5.9.3))(typescript@5.9.3)
+      '@privatepump/sdk':
+        specifier: workspace:*
+        version: link:../packages/sdk
+      '@privatepump/shared':
+        specifier: workspace:*
+        version: link:../packages/shared
       '@solana/spl-token':
         specifier: ^0.4.14
         version: 0.4.14(@solana/web3.js@1.98.4(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3)(utf-8-validate@5.0.10)
@@ -154,7 +154,7 @@ importers:
       '@magicblock-labs/ephemeral-rollups-sdk':
         specifier: ^0.2.0
         version: 0.2.11(bufferutil@4.1.0)(utf-8-validate@5.0.10)
-      '@magicpump/shared':
+      '@privatepump/shared':
         specifier: workspace:*
         version: link:../shared
       '@solana/spl-token':
@@ -200,10 +200,10 @@ importers:
       '@coral-xyz/anchor':
         specifier: ^0.32.1
         version: 0.32.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)
-      '@magicpump/sdk':
+      '@privatepump/sdk':
         specifier: workspace:*
         version: link:../packages/sdk
-      '@magicpump/shared':
+      '@privatepump/shared':
         specifier: workspace:*
         version: link:../packages/shared
       '@solana/spl-token':

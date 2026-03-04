@@ -1,5 +1,5 @@
 {
-  "name": "@magicpump/tests",
+  "name": "@privatepump/tests",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
     "test:math": "ts-mocha -p ./tsconfig.json bonding-curve-math.spec.ts"
   },
   "dependencies": {
-    "@magicpump/shared": "workspace:*",
-    "@magicpump/sdk": "workspace:*",
+    "@privatepump/shared": "workspace:*",
+    "@privatepump/sdk": "workspace:*",
     "@coral-xyz/anchor": "^0.32.1",
     "@solana/web3.js": "^1.98.0",
     "@solana/spl-token": "^0.4.0"
