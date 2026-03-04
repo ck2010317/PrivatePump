@@ -4,13 +4,13 @@ import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddres
 import {
   PROGRAM_ID, MAGIC_ROUTER_DEVNET, BONDING_CURVE_SEED, GLOBAL_SEED,
   FAIR_LAUNCH_SEED, FAIR_ORDER_SEED, VRF_RESULT_SEED,
-} from "@magicpump/shared";
+} from "@privatepump/shared";
 import {
   deriveGlobalPda, deriveBondingCurvePda, deriveFairLaunchPda,
   deriveFairOrderPda, deriveVrfResultPda,
-} from "@magicpump/shared";
+} from "@privatepump/shared";
 
-export class MagicPumpClient {
+export class PrivatePumpClient {
   public program: Program;
   public provider: AnchorProvider;
   public erConnection: Connection;

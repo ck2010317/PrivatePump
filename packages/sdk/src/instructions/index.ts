@@ -1,2 +1,2 @@
 // Re-export from client for convenience
-export { MagicPumpClient } from "../client";
+export { PrivatePumpClient } from "../client";

@@ -1,4 +1,4 @@
-export { MagicPumpClient } from "./client";
+export { PrivatePumpClient } from "./client";
 export * from "./instructions";
 export * from "./accounts";
 export * from "./delegation";

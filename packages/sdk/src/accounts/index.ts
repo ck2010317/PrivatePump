@@ -1,1 +1,1 @@
-export { MagicPumpClient } from "../client";
+export { PrivatePumpClient } from "../client";
