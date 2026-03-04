@@ -4,19 +4,8 @@
   "outputDirectory": "app/.next",
   "installCommand": "cd app && npm install --legacy-peer-deps",
   "env": {
-    "NEXT_PUBLIC_PROGRAM_ID": "@NEXT_PUBLIC_PROGRAM_ID",
-    "NEXT_PUBLIC_RPC_URL": "@NEXT_PUBLIC_RPC_URL",
-    "NEXT_PUBLIC_SERVER_URL": "@NEXT_PUBLIC_SERVER_URL"
-  },
-  "functions": {
-    "app/src/pages/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
-    }
-  ]
+    "NEXT_PUBLIC_PROGRAM_ID": "84NjS3mddtNU8fcvAoeYEMzVxhuWSutTKWvAP2nWjsfk",
+    "NEXT_PUBLIC_RPC_URL": "https://api.devnet.solana.com",
+    "NEXT_PUBLIC_SERVER_URL": "http://localhost:3001"
+  }
 }
