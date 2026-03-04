@@ -1,0 +1,15 @@
+node_modules/
+.next/
+dist/
+target/
+.anchor/
+test-ledger/
+.env
+.env.local
+.env.production
+*.pem
+*.key
+.DS_Store
+*.log
+.turbo/
+.vercel
