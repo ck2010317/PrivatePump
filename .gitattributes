@@ -1,0 +1,24 @@
+* text=auto
+
+# Rust
+*.rs text eol=lf
+*.toml text eol=lf
+Cargo.lock text eol=lf
+
+# TypeScript/JavaScript
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+
+# Markdown
+*.md text eol=lf
+
+# Shell
+*.sh text eol=lf
+
+# Binary files
+*.wasm binary
+*.o binary
+*.a binary
