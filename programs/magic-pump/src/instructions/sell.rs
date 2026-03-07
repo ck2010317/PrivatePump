@@ -54,7 +54,6 @@ pub struct Sell<'info> {
 
 pub fn handler(ctx: Context<Sell>, token_amount: u64, min_sol_out: u64) -> Result<()> {
     let curve = &ctx.accounts.bonding_curve;
-    require!(!curve.complete, MagicPumpError::CurveComplete);
     require!(!curve.is_delegated, MagicPumpError::CurveDelegated);
 
     let (net_sol_out, fee) = calculate_sell_sol(

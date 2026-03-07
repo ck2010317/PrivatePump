@@ -58,7 +58,6 @@ pub struct Buy<'info> {
 
 pub fn handler(ctx: Context<Buy>, sol_amount: u64, min_tokens_out: u64) -> Result<()> {
     let curve = &ctx.accounts.bonding_curve;
-    require!(!curve.complete, MagicPumpError::CurveComplete);
     require!(!curve.is_delegated, MagicPumpError::CurveDelegated);
 
     // Check fair launch window

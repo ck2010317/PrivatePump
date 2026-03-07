@@ -51,7 +51,6 @@ pub struct ErBuy<'info> {
 
 pub fn handler(ctx: Context<ErBuy>, sol_amount: u64, min_tokens_out: u64) -> Result<()> {
     let curve = &ctx.accounts.bonding_curve;
-    require!(!curve.complete, MagicPumpError::CurveComplete);
 
     let tokens_out = calculate_buy_tokens(
         curve.virtual_sol_reserves,

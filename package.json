@@ -1,6 +1,7 @@
 {
   "name": "magicpump",
   "private": true,
+  "packageManager": "npm@10.0.0",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
